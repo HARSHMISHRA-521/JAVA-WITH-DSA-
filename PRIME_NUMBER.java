@@ -6,7 +6,7 @@ public class PRIME_NUMBER {
         System.out.println("Enter the number : ");
         int n = sc.nextInt();
         if (n == 1){
-            System.out.println("This is a composite number");
+            System.out.println("This is a neither composite nor a prime number");
         }
         else if(n == 2){
             System.out.println("This is a prime number");
