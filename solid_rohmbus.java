@@ -1,10 +1,9 @@
 import java.util.*;
 
-//                      * * * *
-//                    * * * *
+//                       * * * *
+//                     * * * *
 //                   * * * *
 //                 * * * *
-//               * * * *
 
 
 public class solid_rohmbus {
@@ -20,7 +19,7 @@ public class solid_rohmbus {
             }
 
             //stars
-            for(int j=1;j<n;j++){
+            for(int j=1;j<=n;j++){
                 System.out.print("* ");
             }
             System.out.println();
