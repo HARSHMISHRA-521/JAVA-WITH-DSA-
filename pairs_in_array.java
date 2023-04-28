@@ -1,6 +1,6 @@
 public class pairs_in_array {
     public static void pairs(int arr[]){
-        int totalpair= arr.length*(arr.length-1)/2;
+        int totalpair= arr.length*(arr.length-1)/2;//sum of n-1 numbers
         for(int i=0;i<arr.length;i++){
             int cur =arr[i];
             for(int j=i+1;j<arr.length;j++){
