@@ -35,7 +35,7 @@ public class max_minSubarray_prefix_sum {
         System.out.println("Minimum sum of subarrays is : "+ minSum);
     }
     public static void main(String[] args) {
-        int arr[]={1,4,5,10,6,7,8,9};
+        int arr[]={-2,-3,-4,-1,-2,-1,-5,-3};
         subarray(arr);
     }
 }
