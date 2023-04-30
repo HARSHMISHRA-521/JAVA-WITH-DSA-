@@ -2,8 +2,8 @@
 //        return true if any value appears at least twice in the array,
 //        and return false if every element is distinct.
 //Constraints:
-// •1 <= nums .  lengtth <=
-// 105•-109 <= nums [ i ] <= 109
+// •1 <= nums .  lengtth <=10^5
+// 10^5 <= nums [ i ] <= 10^9
 
 public class serach_distinct_num { // O(n^2)
     public static boolean search(int arr[]){
