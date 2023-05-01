@@ -12,7 +12,7 @@ public class bubble_sort {
             // the last i elements are already sorted
             for (int j = 0; j < n - i - 1; j++) {
                 // swap if the current element is greater than the next element
-                if (arr[j] > arr[j + 1]) {
+                if (arr[j] > arr[j + 1]) {       //here we can change > to < for descending order
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
