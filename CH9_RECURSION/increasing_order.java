@@ -9,7 +9,7 @@ public class increasing_order {
         }
         //inner call
         printInc(n-1);
-
+                                    // we must take care of the sequence of the inner call and computation statement order
         System.out.print(n+" ");
     }
 
