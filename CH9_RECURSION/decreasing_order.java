@@ -7,7 +7,9 @@ public class decreasing_order {
             System.out.println(n);
             return;
         }
+
         System.out.print(n+" ");
+     //inner call
         printDec(n-1);
     }
 
