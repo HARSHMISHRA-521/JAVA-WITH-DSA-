@@ -11,7 +11,7 @@
 
 package CH9_RECURSION;
 
-public class Assinmnet_qNo_1 {
+public class Assignment_qNo_1 {
     public static void  printIndices(int arr[],int key , int i,int count ){
 
         if(i==arr.length){
