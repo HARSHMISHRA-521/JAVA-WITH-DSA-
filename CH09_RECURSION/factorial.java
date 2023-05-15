@@ -1,4 +1,4 @@
-package CH9_RECURSION;
+package CH09_RECURSION;
 //space and time complexity of the code is O(n)
 public class factorial {
     public static int fact(int n){

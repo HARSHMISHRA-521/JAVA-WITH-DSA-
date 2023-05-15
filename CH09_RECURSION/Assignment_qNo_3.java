@@ -1,6 +1,6 @@
 //Question 3 : Write a program to find Length of a string using Recursion.
 
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class Assignment_qNo_3 {
     public static int length(String str){

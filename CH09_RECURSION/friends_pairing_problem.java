@@ -4,7 +4,7 @@
 //        which friends can remain single or can be paired up.
 
 
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class friends_pairing_problem {
     public static int pairFriends(int noOfFrnd){

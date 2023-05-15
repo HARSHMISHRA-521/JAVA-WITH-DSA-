@@ -1,4 +1,4 @@
-package CH9_RECURSION;
+package CH09_RECURSION;
 //time and space complexity is O(n)
 public class lastOccurance_array_trecursion {
     public static int lastOcc(int []arr,int key,int i){

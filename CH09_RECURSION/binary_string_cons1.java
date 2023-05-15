@@ -1,7 +1,7 @@
 //BINARY STRING PROBLEM
 //print all binary strings of size N without consecutive ones
 
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class binary_string_cons1 {
     public static void printBinStr(int size,int lastPlace,String str){

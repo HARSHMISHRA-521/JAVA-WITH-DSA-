@@ -1,4 +1,4 @@
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class Assignment_qNo_4 {
     // Define a method to count the number of substrings that start and end with the same character

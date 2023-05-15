@@ -9,7 +9,7 @@
 
 
 
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class Assignment_qNo_1 {
     public static void  printIndices(int arr[],int key , int i,int count ){

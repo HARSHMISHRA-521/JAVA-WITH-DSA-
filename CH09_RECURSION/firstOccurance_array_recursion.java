@@ -1,4 +1,4 @@
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 //time and space complexity is O(n)
 

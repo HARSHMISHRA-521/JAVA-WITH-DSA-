@@ -1,4 +1,4 @@
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class increasing_order {
     public static void printInc(int n){

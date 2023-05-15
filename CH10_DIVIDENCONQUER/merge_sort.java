@@ -1,5 +1,6 @@
 package CH10_DIVIDENCONQUER;
-
+//tc:O(n log n)
+//sc:O(n) i.e,it takes extra space
 public class merge_sort {
     public static void printArray(int arr[]){
         for(int i=0;i<arr.length;i++){

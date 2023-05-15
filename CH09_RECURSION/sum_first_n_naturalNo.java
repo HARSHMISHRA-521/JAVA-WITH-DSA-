@@ -1,4 +1,4 @@
-package CH9_RECURSION;
+package CH09_RECURSION;
 //both space and time complexity are O(n)
 
 public class sum_first_n_naturalNo {

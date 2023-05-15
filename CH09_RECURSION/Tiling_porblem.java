@@ -3,7 +3,7 @@
 //        ways to tile the given board using the 2 x 1 tiles.
 //        (A tile can either be placed horizontally or vertically. )
 
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class Tiling_porblem {
     public static int tiling_problem(int width){ //2 x width size

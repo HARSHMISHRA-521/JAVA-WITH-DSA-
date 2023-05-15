@@ -1,4 +1,4 @@
-package CH9_RECURSION;
+package CH09_RECURSION;
 // remove the duplicates in a string for(a-z)characters only
 
 public class remove_duplicates_string {

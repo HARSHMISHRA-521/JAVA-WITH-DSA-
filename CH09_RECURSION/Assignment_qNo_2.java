@@ -8,7 +8,7 @@
 //        Sample Input : 1947
 //        Sample Output : "one nine four seven
 
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class Assignment_qNo_2 {
     public static void intToStr(int num){

@@ -1,4 +1,4 @@
-package CH9_RECURSION;
+package CH09_RECURSION;
 //its space complexity is O(n)
 //its time complexity is exponential ,i.e,O(2^n)
 

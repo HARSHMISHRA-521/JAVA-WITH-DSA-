@@ -10,7 +10,7 @@
 
 
 
-package CH9_RECURSION;
+package CH09_RECURSION;
 
 public class TowerOfHanoi { //O(2^n)
 //
