@@ -1,5 +1,5 @@
 package CH11_BACKTRACKING;
-//
+//         tc = sc = O(n)
 //        Write a program that creates an array of size 5. While reaching the base case in
 //        the program, assign the values i + 1 to the array elements.
 //        Upon returning from the base case, subtract 2 from each array element.
