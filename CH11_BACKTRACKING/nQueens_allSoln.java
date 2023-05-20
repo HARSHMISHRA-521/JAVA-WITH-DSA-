@@ -1,6 +1,8 @@
 package CH11_BACKTRACKING;
 
-public class nQueens_allSoln {
+public class nQueens_allSoln { //O(n!)
+    static int count = 0; // Variable to keep track of the total number of solutions
+
     public static boolean isSafe(char board[][], int row, int col) {
         // Check if there is a Queen in the vertical upward direction
         for (int i = row - 1; i >= 0; i--) {
@@ -40,7 +42,8 @@ public class nQueens_allSoln {
     public static void nQueens(char board[][], int row) {
         // Base case: If all rows have been filled, we have found a valid placement
         if (row == board.length) {
-            printBoard(board);
+            count++;
+//            printBoard(board); // Display the board for each valid solution
             return;
         }
 
@@ -72,5 +75,7 @@ public class nQueens_allSoln {
 
         // Solve the N-Queens problem starting from the first row
         nQueens(board, 0);
+
+        System.out.println("Total number of solutions: " + count);
     }
 }
