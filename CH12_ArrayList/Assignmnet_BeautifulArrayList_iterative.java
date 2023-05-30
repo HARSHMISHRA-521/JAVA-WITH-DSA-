@@ -1,4 +1,4 @@
-package CH12_ArrayList;
+package CH12_ArrayList;  //O(n)
 
 import java.util.ArrayList;
 
