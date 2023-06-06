@@ -63,7 +63,6 @@ public class reverse_DoubleLL {
         dll.addFirst(1);
         dll.addFirst(0);
         dll.print();
-        System.out.println(dll.size);
         dll.reverse();
         dll.print();
 
