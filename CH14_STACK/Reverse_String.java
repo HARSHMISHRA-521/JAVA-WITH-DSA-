@@ -1,4 +1,4 @@
-package CH14_STACK;
+package CH14_STACK; //tc : O(n) ; sc :O(1)
 import java.util.*;
 
 public class Reverse_String {

@@ -1,4 +1,4 @@
-package CH14_STACK;//O(n)
+package CH14_STACK;//tc : O(n) ; sc :O(1)
 import java.util.*;
 //Question 1
 //        Push at the Bottom of the Stack
