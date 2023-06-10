@@ -31,8 +31,7 @@ public class Reverse_Stack {
         s.push(2);
         s.push(3);
         s.push(4);
-        System.out.println("Original stack is :");
-        printStack(s);
+        //4,3,2,1
         reverseStack(s);
         System.out.println("reversed stack is : ");
         printStack(s);
