@@ -8,7 +8,7 @@ import java.util.*;
 //        B: [2, 1, 3]
 //        ans : 0
 
-public class Min_Absolute_Difference_Pair {
+public class Min_Absolute_Difference_Pair {  //TC :  O(nlog n)
     public static void main(String[] args) {
         int a[]={1,2,3};
         int b[] = {2,1,3};
