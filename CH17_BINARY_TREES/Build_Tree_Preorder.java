@@ -26,6 +26,14 @@ public class Build_Tree_Preorder {
             newNode.right= buildTrees(nodes);
             return newNode;
         }
+        public static void preorder(Node root){
+            if(root==null){
+                return;
+            }
+            System.out.print(root.data+" ");
+            preorder(root.left);
+            preorder(root.right);
+        }
     }
 
     public static void main(String[] args) {
@@ -34,6 +42,8 @@ public class Build_Tree_Preorder {
         Node root = tree.buildTrees(nodes);
         System.out.print("The root node is : ");
         System.out.print(" "+root.data);
+        System.out.println();
+        tree.preorder(root);  //1 2 4 5 3 6
     }
 }
 //The root node is :   1
