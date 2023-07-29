@@ -9,7 +9,7 @@ package CH16_GREEDY_ALGO;
 //        :3
 
 import java.util.*;
-public class Maximum_Balanced_String_Partition {
+public class Maximum_Balanced_String_Partition {   // TC =o(n)  SC = o(1)
     static int BalancedString(String str,int n){
         if(n==0){
             return 0;
