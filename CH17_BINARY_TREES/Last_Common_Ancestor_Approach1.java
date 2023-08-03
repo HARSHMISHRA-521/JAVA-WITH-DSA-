@@ -10,7 +10,7 @@ package CH17_BINARY_TREES;
 
 import java.util.ArrayList;
 
-//TC = O(n)  , only prblm is that this approach takes more space as we used two arraylist to store path
+//TC = O(n)= SC ,only prblm is that this approach takes more space as we used two arraylist to store path and one recursion stack O(3n)
 public class Last_Common_Ancestor_Approach1 {
     static class Node{
         int data;
