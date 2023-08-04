@@ -93,7 +93,7 @@ public class Delete_BST {
         System.out.println("Inorder sequenece before deletion : ");
         inorder(root);
         System.out.println();
-        int val = 10;
+        int val = 5;
         root =delete(root,val);
         System.out.println("Inorder sequence after deletion of "+val+" :");
         inorder(root);
@@ -103,5 +103,34 @@ public class Delete_BST {
 //output:
 // Inorder sequenece before deletion :
 //1 3 4 5 6 8 10 11 14
-//Inorder sequence after deletion of 10 :
-//1 3 4 5 6 8 11 14
+
+//  Inorder sequence after deletion of 10(single child case) :
+//     1 3 4 5 6 8 11 14
+//                     8
+//                  /    \
+//                5       11
+//               /  \        \
+//              3   6         14
+//             / \
+//            1   4
+
+//    Inorder sequence after deletion of 1 ( leaf node case) :
+//        3 4 5 6 8 10 11 14
+//                     8
+//                  /    \
+//                5       10
+//               /  \        \
+//              3   6         11
+//               \              \
+//                4               14
+
+
+//    Inorder sequence after deletion of 5 (two child case) :
+//        1 3 4 6 8 10 11 14
+//                     8
+//                  /    \
+//                6       10
+//               /          \
+//              3            11
+//             /  \             \
+//            1    4              14
