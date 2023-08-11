@@ -6,7 +6,7 @@ package CH18_BINARY_SEARCH_TREES;
                  /      \
                5         11
               / \      /     \
-             3   6    10     11
+             3   6    10     12
               expected BST
 */
 public class Sorted_Arr_To_Balanced_BST {  // O(n)
@@ -47,7 +47,7 @@ public class Sorted_Arr_To_Balanced_BST {  // O(n)
 //                /      \
 //              5         11
 //            / \      /     \
-//           3   6    10     11
+//           3   6    10     12
 //        expected BST
 
         Node root = CreateBST(arr,0,arr.length-1);
