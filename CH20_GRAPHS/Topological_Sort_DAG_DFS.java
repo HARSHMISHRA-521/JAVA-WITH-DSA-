@@ -6,7 +6,7 @@ package CH20_GRAPHS;
         the vertex u comes before v in the order. */
 
 import  java.util.*;
-public class Topological_Sort_DAG {  // TC :O( V+E )  && SC : ( V )-> because of extra space used by stack
+public class Topological_Sort_DAG_DFS {  // TC :O( V+E )  && SC : ( V )-> because of extra space used by stack
     public static class Edge{
         int src,dest;
 
