@@ -15,6 +15,7 @@ public class practise {
             if(curr == k){
                 ans+=1;
                 maxs =Math.max(maxs,i+1);
+
             }
 
             if(f.containsKey(curr -k)){
