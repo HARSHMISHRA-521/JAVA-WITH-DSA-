@@ -1,4 +1,3 @@
-
 package CH20_GRAPHS;
 //kickdrum
 import java.util.HashMap;
