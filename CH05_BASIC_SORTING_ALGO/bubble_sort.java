@@ -1,5 +1,11 @@
 public class bubble_sort {
     // Bubble Sort method to sort an array in ascending order
+
+    /**
+     * Best case  :O(n)
+     * worst case  = Average Case = O(n^2)
+     * @param arr
+     */
     public static void bubbleSort(int[] arr) {
         // length of the input array
         int n = arr.length;
