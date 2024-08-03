@@ -1,4 +1,9 @@
-public class counting_sort {
+public class                                                                                counting_sort {
+    /**
+     * O(best)= O(worst)=O(average) = O(n+k) ,
+     * where k is the range of the non-negative values
+     * @param arr
+     */
     public static void counting(int arr[]) {
         // Find the maximum element in the array
         int largest = Integer.MIN_VALUE;
