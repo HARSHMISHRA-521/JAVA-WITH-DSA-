@@ -1,5 +1,10 @@
 package CH05_BASIC_SORTING_ALGO;
 
+/**
+ * Best Case  : O(n)
+ * Average case : O(n^2)
+ * Worst case: O(n^2)
+ */
 public class insertion_sort {
     // Method to perform insertion sort on the input array
     public static void insertion(int[] arr) {
