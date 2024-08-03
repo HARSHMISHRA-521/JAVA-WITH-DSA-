@@ -1,4 +1,9 @@
 public class selection_sort {
+    /**
+     * Selects the minimum number at swaps it and place it at front
+     * its best, worst , and average TC is BigO(n^2)
+     * @param arr
+     */
     public static void selection(int[] arr){
         int n = arr.length;
         for(int i =0;i< n-1;i++){

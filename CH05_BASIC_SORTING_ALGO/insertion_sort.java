@@ -1,3 +1,5 @@
+package CH05_BASIC_SORTING_ALGO;
+
 public class insertion_sort {
     // Method to perform insertion sort on the input array
     public static void insertion(int[] arr) {
