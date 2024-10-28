@@ -1,0 +1,46 @@
+//This is the one of the OA round question asked in 2025
+
+-> 
+/**
+4
+1 10
+2 5
+4 8
+1 15
+
+ 2 0 0 3
+1 2 2 0
+
+input is
+first line is the number of ranges you wanna give. here in the example we have taken 4. so next lines we will be writing 4 ranges
+
+1st line of output is "How many other ranges can the current range contain" in sequence.
+by contain it means for example if there are two ranges (a,b) and (c,d) then first range contains second range would happen only if a<=c and d<=b.
+
+here in the example consider the first range (1,10) , it can contain (2,5) and (4,8) but not (1,15) so total it can contain 2 ranges out of rest so for the first range the value will be 2.
+similarly for the other ranges.
+
+2 0 0 3 means
+
+that the first range (1,10) can contain 2 other ranges.
+ the second (2,5) and third (4,8) range cant contain any other range that's why its 0
+and the last range (1,15) can contain all 3.
+[12-10-2024 11:17 AM] Shashank Yadav 3rd Yera: 2nd line of ouput is "in many other ranges is the current range Contained" in sequence
+
+by Contained it mean,
+
+for example the first range (1,10) is contained by the range(1,15) only so it is contained by 1 range
+the next range (2,5) is contained by the range(1,10) and range (1,15) so total 2 ranges 
+similarly for the third range (4,8)
+and for the last range (1,15) it is not contained by any so 0
+**/
+
+//This is the technical round question :
+
+/**
+See this are the interview questions they asked in technical round :
+1) return an array of digits present in a string,that string being the input
+2)sum the squares of each digit in a number and repeat this process until we get the number '1',whic return True if it falls into a loop return false 
+3)given a list of numbers print the next permutation 
+i,e if [2,5,3,7,9,8,1] the output should be [2,5,3,8,1,7,9]
+**/
