@@ -1,3 +1,9 @@
+/**
+
+They asked this question with various variations.
+They were adding new conditions and parameters to the question making it a bit more complex to solve
+**/
+
 public class TrappedRainWater {
 
     public static int volmofwater(int height[]){ //O(n)
